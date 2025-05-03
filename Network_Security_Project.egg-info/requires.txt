@@ -8,5 +8,3 @@ seaborn
 flask
 dill
 certifi
-
-# -e .
