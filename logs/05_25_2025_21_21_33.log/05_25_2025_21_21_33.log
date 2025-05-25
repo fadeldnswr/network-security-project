@@ -1,0 +1,47 @@
+[ 2025-05-25 21:21:36,635 ] 22 root - INFO - Initiate the data ingestion
+[ 2025-05-25 21:21:44,132 ] 76 root - INFO - Performed train and test split on the dataframe
+[ 2025-05-25 21:21:44,132 ] 77 root - INFO - Exited split_data_to_train_test method of DataIngestion class
+[ 2025-05-25 21:21:44,134 ] 82 root - INFO - Exporting train and test file path
+[ 2025-05-25 21:21:44,187 ] 95 root - INFO - Exported train and test file path
+[ 2025-05-25 21:21:44,187 ] 25 root - INFO - Data ingestion completed successfully
+[ 2025-05-25 21:21:44,193 ] 31 root - INFO - Initiate the data validation
+[ 2025-05-25 21:21:44,248 ] 55 root - INFO - Required number of columns: 2
+[ 2025-05-25 21:21:44,249 ] 56 root - INFO - Dataframe has 31 columns.
+[ 2025-05-25 21:21:44,249 ] 55 root - INFO - Required number of columns: 2
+[ 2025-05-25 21:21:44,249 ] 56 root - INFO - Dataframe has 31 columns.
+[ 2025-05-25 21:21:44,249 ] 72 root - INFO - Schema columns: ['columns', 'numerical_columns']
+[ 2025-05-25 21:21:44,249 ] 73 root - INFO - Dataframe columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='object')
+[ 2025-05-25 21:21:44,249 ] 72 root - INFO - Schema columns: ['columns', 'numerical_columns']
+[ 2025-05-25 21:21:44,249 ] 73 root - INFO - Dataframe columns: Index(['having_IP_Address', 'URL_Length', 'Shortining_Service',
+       'having_At_Symbol', 'double_slash_redirecting', 'Prefix_Suffix',
+       'having_Sub_Domain', 'SSLfinal_State', 'Domain_registeration_length',
+       'Favicon', 'port', 'HTTPS_token', 'Request_URL', 'URL_of_Anchor',
+       'Links_in_tags', 'SFH', 'Submitting_to_email', 'Abnormal_URL',
+       'Redirect', 'on_mouseover', 'RightClick', 'popUpWidnow', 'Iframe',
+       'age_of_domain', 'DNSRecord', 'web_traffic', 'Page_Rank',
+       'Google_Index', 'Links_pointing_to_page', 'Statistical_report',
+       'Result'],
+      dtype='object')
+[ 2025-05-25 21:21:44,519 ] 33 root - INFO - Data validation completed successfully
+[ 2025-05-25 21:21:44,519 ] 37 root - INFO - Initiate the data transformation
+[ 2025-05-25 21:21:44,520 ] 59 root - INFO - Initiating data transformation
+[ 2025-05-25 21:21:44,520 ] 62 root - INFO - Loading validated train and test data
+[ 2025-05-25 21:21:44,580 ] 65 root - INFO - Data loaded successfully
+[ 2025-05-25 21:21:44,585 ] 50 root - INFO - Creating data transformation pipeline with KNN imputer
+[ 2025-05-25 21:21:44,602 ] 73 root - INFO - Saving object to Artifacts\05_25_2025_21_21_33\data_transformation\transformed_object\preprocessing.pkl
+[ 2025-05-25 21:21:44,607 ] 73 root - INFO - Saving object to final_model/preprocessor.pkl
+[ 2025-05-25 21:21:44,612 ] 45 root - INFO - Data transformation completed successfully
+[ 2025-05-25 21:21:44,613 ] 48 root - INFO - Initiate the model training
+[ 2025-05-25 21:24:54,989 ] 73 root - INFO - Saving object to Artifacts\05_25_2025_21_21_33\model_trainer\trained_model\model.pkl
+[ 2025-05-25 21:24:55,010 ] 73 root - INFO - Saving object to final_model/model.pkl
+[ 2025-05-25 21:24:55,030 ] 161 root - INFO - Model training completed successfully. Best model: Random Forest with score: 0.8675726307453241
+[ 2025-05-25 21:24:55,032 ] 55 root - INFO - Model training completed successfully

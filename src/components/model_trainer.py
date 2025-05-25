@@ -149,6 +149,9 @@ class ModelTrainer:
         obj=network_model
       )
       
+      # Save the best model to a specific directory
+      save_object("final_model/model.pkl", best_model)
+      
       # ModelTrainerArtifact to store the trained model and metrics
       model_trainer_artifact = ModelTrainerArtifact(
         trained_model_file_path=self.model_trainer_config.trained_model_file_path,
