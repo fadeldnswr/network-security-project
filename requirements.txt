@@ -8,6 +8,7 @@ seaborn
 flask
 dill
 certifi
-pymongo[srv]==3.6
+pymongo
 pyaml
+mlflow
 # -e .
