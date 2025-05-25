@@ -9,5 +9,5 @@ flask
 dill
 certifi
 pymongo[srv]==3.6
-
+pyaml
 # -e .
