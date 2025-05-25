@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/MySkill/Data%20Science/Projects/network-security-project/mlruns/0/3de5f58428eb438aa0e1378ab772b72c/artifacts
+end_time: 1748186389232
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3de5f58428eb438aa0e1378ab772b72c
+run_name: clean-mink-696
+run_uuid: 3de5f58428eb438aa0e1378ab772b72c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748186384135
+status: 3
+tags: []
+user_id: Fadel
